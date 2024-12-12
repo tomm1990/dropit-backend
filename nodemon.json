@@ -1,0 +1,7 @@
+{
+  "watch": ["src", "dist"],
+  "ext": "ts,js,json",
+  "ignore": ["node_modules"],
+  "exec": "node --inspect dist/index.js",
+  "legacy-watch": true
+}
